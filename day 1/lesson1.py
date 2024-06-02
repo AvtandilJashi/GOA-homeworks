@@ -54,7 +54,41 @@ end_fill()
 
 #end of roof
 
-#drawing windows
+#drawing window 1
+
+color("brown")
+begin_fill()
+penup()
+goto(15, 135)
+pendown()
+left(120)
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+end_fill()
+
+
+#draw a window 2
+
+color("brown")
+begin_fill()
+penup()
+left(90)
+forward(120)
+pendown()
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+end_fill()
+
 
 
 
