@@ -1,0 +1,38 @@
+print(15 > 10)
+print(10 > 2)
+print(20 == 20)
+print(5 < 7)
+print(1 < 9)
+print(20 > 10)
+print(40 > 9)
+print(10 > 4)
+print(9 > 8)
+print(100 < 101)
+print(100 < 900)
+print(7 > 6)
+print(9 == 9)
+print(89 < 289)
+print(1 > 0)
+print(2 < 3)
+print(9123456789 < 9213456789)
+print(123456789 > 1123456)
+print(90 > 1)
+print(310 > 309)
+print(1000000 > 999999)
+print(7 > 3)
+print(12 > 8)
+print(9 < 88)
+print(99 == 99)
+print(1 == 1)
+print(6 > 3)
+print(20 < 70)
+print(0 == 0)
+
+
+
+
+age = input('Enter your age: ')
+Age = input('Enter your age: ')
+
+print(age >= Age)
+
