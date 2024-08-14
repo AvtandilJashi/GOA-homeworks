@@ -33,7 +33,7 @@ for i in range(1, 101):
 
 #4) დავალება
 
-exam = int(input('Enter your score: '))
+exam = int(input('Enter your score:'))
 
 if exam < 70:
     print('You cannot pass exam')
