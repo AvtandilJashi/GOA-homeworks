@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Courier New', Courier, monospace ;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+p{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: large;
+}
+h2{
+    color: white;
+    font-family: fantasy;
+    font-style: inherit;
+    font-size: large;
+}
+h3{
+    color: brown;
+    font-size: large;
+    font-style: medium;
+}
+h4{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 50px;
+}
