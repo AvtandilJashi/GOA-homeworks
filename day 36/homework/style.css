@@ -1,0 +1,34 @@
+body {
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-color: rgb(218, 255, 8);
+    background-repeat: no-repeat; /*ფონზე მხოლოდ ერთხელ გამოსახვა*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.my-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.content {
+    background-image: url('content-background.jpg'); 
+    background-repeat: repeat-x; /* ფონზე გამოსახულების გამეორება ჰორიზონტალურად ასევე კიდევ არის repeat-x ეს ფონს ამეორებს ვერტიკალურად */ 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}

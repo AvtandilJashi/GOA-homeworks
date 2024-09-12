@@ -1,0 +1,12 @@
+div {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: red;
+    font-family: cursive;
+    text-shadow: 10px 10px 10px red;
+    text-decoration: underline;
+    box-shadow: 5px 25px 15px 
+    red;
+    text-align: center;
+}

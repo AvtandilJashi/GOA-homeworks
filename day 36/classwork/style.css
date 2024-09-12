@@ -1,0 +1,23 @@
+button {
+    background-image: url('perfume.pgn.jpg');
+    width: 1000px;
+    height: 1000px;
+}
+
+h2 {
+    background-image: url('goa5.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 100px;
+    color: red;
+    font-size: 50px;
+}
+
+p {
+    background-image: url('Basketball.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 100px;
+    color: red;
+    font-size: 30px;
+}
