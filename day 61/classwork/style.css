@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.transform-box {
+    width: 150px;
+    height: 150px;
+    background-color: lime;
+    transition: 0.5s;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transform-box:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.scale {
+    transform: scale(1.5);
+}
+
+.translate {
+    transform: translateX(100px);
+}
+
+.skew {
+    transform: skew(20deg, 10deg);
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.transform-box:not(:hover) {
+    transform: scale(1);
+}
