@@ -1,0 +1,56 @@
+.text {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.text:hover {
+    opacity: 1;
+}
+
+.button {
+    transition: transform 0.5s;
+}
+.button:hover {
+    transform: rotate(145deg);
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 100px;
+    opacity: 0.5;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.image-gallery img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.element {
+    opacity: 0;
+    position: relative;
+    transition: opacity 1s, transform 1s;
+}
+
+.top {
+    transform: translateY(-50px);
+    animation: slideInTop 1s forwards;
+}
+
+.bottom {
+    transform: translateY(50px);
+    animation: slideInBottom 1s forwards;
+}
+
+.left {
+    transform: translateX(-50px);
+    animation: slideInLeft 1s forwards;
+}
+
+.right {
+    transform: translateX(50px);
+    animation: slideInRight 1s forwards;
+}
+

@@ -1,0 +1,36 @@
+button {
+    background-color: red; 
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+  
+button:hover {
+    background-color: black; 
+    transform: scale(1) translateX(100px);
+    box-shadow: blue;   
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+div:hover {
+    transform: translateY(-20px) rotateX(20deg); 
+    box-shadow: black 10px; 
+  }
+  
