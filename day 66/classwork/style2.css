@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #f0f0f0; 
+}
+  
+.gradient-boxs {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0; 
+    border-radius: 8px; 
+}
+  
+
+#box1 {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+}
+#box2 {
+    background: linear-gradient(90deg, #6a11cb, #2575fc); 
+}
+  
+#box3 {
+    background: linear-gradient(135deg, #ff0099, #493240);
+}
+  

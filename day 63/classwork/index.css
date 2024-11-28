@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px solid red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: classwork;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    
+}
+
+@keyframes classwork {
+    15% {
+        background-color: red;
+        transition: translateY(200px);
+        color: black;
+        border-color: 10px blue;
+    }
+
+    50% {
+        background-color: green;
+        transition: translatex(300px);
+        color: white;
+        border-color: 10px yellow;
+    }
+
+    85% {
+        background-color: brown;
+        transition: translateY(400px);
+        color: yellow;
+        border-color: 10px white;
+    }
+
+    100% {
+        background-color: yellow;
+        transition: translatex(200px);
+        color: violet;
+        border-color: 10px black;
+    }
+}
+
+    

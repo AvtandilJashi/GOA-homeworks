@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: animation;
+    animation-duration: 2s;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(200px);
+    }
+    50% {
+        transform: translateY(-200px);
+    }
+
+    75% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateY(200px);
+    }
+}

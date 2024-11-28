@@ -1,0 +1,51 @@
+:root {
+    --color: #333;
+    --background-color: #f0f0f0;
+    --font-size: 16px;
+    --font-family: 'Arial', sans-serif;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border: 2px solid #ccc;
+    --border-radius: 8px;
+    --margin: 20px;
+    --padding: 10px;
+    --position: relative;
+}
+
+.element {
+    color: var(--color);
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    padding: var(--padding);
+    position: var(--position);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element_1 {
+    background-color: blue;
+}
+
+.element_2 {
+    background-color: red;
+}
+
+.element_3 {
+    background-color: yellow
+}
+
+.element_4 {
+    background-color: green;
+}
+
+.element_5 {
+    background-color: pink;
+}

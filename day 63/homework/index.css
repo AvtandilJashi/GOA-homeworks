@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    transition: width 2s ease-in-out;
+}
+
+.div1:hover {
+    cursor: pointer;
+    width: 700px;
+}
