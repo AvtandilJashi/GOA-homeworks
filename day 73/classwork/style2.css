@@ -1,0 +1,22 @@
+button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 5s ease;
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    animation: changeShape 5s infinite alternate;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+

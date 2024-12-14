@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+  }
+  
+  .box-purple {
+    background-color: #805dff;
+    color: #fff;
+  }
+  
+  .box-light-purple {
+    background-color: #eae2ff;
+    color: #6a4dad;
+  }
+  
+  .box-yellow {
+    background-color: #ffc84c;
+    color: #6a4b00;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ffcc4c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #6a4b00;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #f1b934;
+  }
+  
+  .graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100px;
+    margin-top: 10px;
+  }
+  
+  .graph .bar {
+    background-color: #805dff;
+    width: 20px;
+    border-radius: 4px;
+    transition: height 0.3s;
+  }
+  
+  .graph .bar:hover {
+    background-color: #6a4dad;
+  }
+  

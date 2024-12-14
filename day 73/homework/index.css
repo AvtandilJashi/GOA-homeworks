@@ -1,0 +1,64 @@
+.red-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.3s ease;
+}
+
+.red-square:hover {
+    transform: translate(50px, 100px);
+}
+
+.green-circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.green-circle:hover {
+    transform: rotate(45deg) scale(1.5);
+}
+
+.blue-rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    transition: all 1s ease;
+}
+
+.blue-rectangle:hover {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}
+
+.yellow-block {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: transform 1.5s ease;
+}
+
+.yellow-block:hover {
+    transform: scale(1.2) rotate(90deg) translate(-50px, -50px);
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.button:hover {
+    background-color: yellow;
+    transform: scale(1.2) rotate(5deg);
+}

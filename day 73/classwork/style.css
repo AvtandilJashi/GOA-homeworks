@@ -1,0 +1,12 @@
+div {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;   
+}
+
+div:hover {
+    background-color: green;
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease;
+    cursor: pointer;
+}
