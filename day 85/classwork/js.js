@@ -1,0 +1,55 @@
+//Codewars 1
+//Switch it Up!
+
+function switchItUp(number){
+    if (number === 0) {
+      return 'Zero'
+    }
+    if (number === 1) {
+      return 'One'
+    }
+    if (number === 2) {
+      return 'Two'
+    }
+    if (number === 3) {
+      return 'Three'
+    }
+    if (number === 4) {
+      return 'Four'
+    }
+    if (number === 5) {
+      return 'Five'
+    }
+    if (number === 6) {
+      return 'Six'
+    }
+    if (number === 7) {
+      return 'Seven'
+    }
+    if (number === 8) {
+      return 'Eight'
+    }
+    if (number === 9) {
+      return 'Nine'
+    }
+ }
+
+
+
+//2.
+
+function getCoffeeType(input) {
+    switch (input) {
+        case 1:
+            console.log('Americano');
+            break;
+        case 2:
+            console.log('Espresso');
+            break;
+        case 3:
+            console.log('Cappuccino');
+            break;
+        default:
+            console.log('Unknown')
+    }
+}
