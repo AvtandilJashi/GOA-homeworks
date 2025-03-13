@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        #colorDiv { width: 200px; height: 100px; background-color: lightgray; margin-top: 10px; }
+        #textToggle { display: block; margin-top: 10px; }
+        #counterSpan { font-size: 20px; font-weight: bold; margin-left: 5px; }
+    </style>
+</head>
+<body>
+
+    <button id="changeColor">Change Color</button>
+    <div id="colorDiv"></div>
+
+    <button id="changeImage">Change Image</button>
+    <img id="image" src="image1.jpg" width="200">
+
+    <button id="toggleText">Show/Hide Text</button>
+    <p id="textToggle">This is a toggleable text.</p>
+
+    <button id="increaseCounter">Increase Counter</button>
+    <span id="counterSpan">0</span>
+
+    <div>
+        <p>What is the capital of France?</p>
+        <label><input type="radio" name="quiz" value="Paris"> Paris</label>
+        <label><input type="radio" name="quiz" value="London"> London</label>
+        <label><input type="radio" name="quiz" value="Berlin"> Berlin</label>
+        <button id="checkAnswer">Check Answer</button>
+        <p id="quizResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

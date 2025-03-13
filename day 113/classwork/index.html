@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Size Control</title>
+  <style>
+    #myDiv {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      transition: all 0.3s ease;
+    }
+
+    .large {
+      width: 400px;
+      height: 400px;
+    }
+
+    .small {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <button id="increaseBtn">Increase Div Size</button>
+    <button id="decreaseBtn">Decrease Div Size</button>
+  </div>
+  <div id="myDiv"></div>
+
+  <script src="js.js"></script>
+</body>
+</html>
