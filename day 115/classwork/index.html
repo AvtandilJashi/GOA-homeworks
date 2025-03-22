@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        background-color: black;
+        color: red;
+        font-family: monospace;
+        height: 25px;
+        width: 150px;
+        cursor: pointer;
+        transition: 1s;
+        border: none;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: red;
+        color: black;
+    }
+</style>
+<body>
+    
+    <button onclick="previousPhoto()">previous</button>
+    <img id="slide" src="image.png" alt="">
+    <button onclick="nextPhoto()">next</button>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
