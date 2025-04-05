@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>ტემპერატურის გადაყვანა</h2>
+    <input type="number" id="temperature" placeholder="შეიყვანე ტემპერატურა">
+    <select id="unit">
+      <option value="CtoF">ცელსიუსიდან ფარენჰეიტში</option>
+      <option value="FtoC">ფარენჰეიტიდან ცელსიუსში</option>
+    </select>
+    <button onclick="convertTemp()">გადაყვანა</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>

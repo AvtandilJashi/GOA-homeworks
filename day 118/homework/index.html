@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="box">
+    <h2>მარტივი სია</h2>
+    <input type="text" id="itemInput" placeholder="ჩაწერე ელემენტი">
+    <button onclick="addItem()">დამატება</button>
+    <button onclick="clearList()">გასუფთავება</button>
+    <ul id="itemList"></ul>
+  </div>
+
+  <div class="box">
+    <h2>მრიცხველი</h2>
+    <div id="counter">0</div>
+    <button onclick="changeCounter(1)">გაზრდა</button>
+    <button onclick="changeCounter(-1)">შემცირება</button>
+    <button onclick="changeCounter(10)">+10</button>
+    <button onclick="changeCounter(-10)">-10</button>
+  </div>
+
+  <div class="box">
+    <h2>შემთხვევითი ფერი</h2>
+    <button onclick="generateColor()">შეცვლა</button>
+    <div id="colorBox">ფერი</div>
+  </div>
+
+  <div class="box">
+    <h2>სლაიდერი</h2>
+    <button onclick="prevSlide()">⬅ მარცხნივ</button>
+    <button onclick="nextSlide()">მარჯვნივ ➡</button>
+    <div id="sliderBox"><img src="https://via.placeholder.com/200x120?text=1" alt=""></div>
+  </div>
+
+  <div class="box">
+    <h2>შეტყობინება</h2>
+    <input type="text" id="msgInput" placeholder="შეიყვანე ტექსტი">
+    <button onclick="showMessage()">ჩვენება</button>
+    <button onclick="clearMessage()">გასუფთავება</button>
+    <div id="messageBox"></div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
