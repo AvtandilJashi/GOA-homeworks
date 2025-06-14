@@ -1,0 +1,22 @@
+{
+  "person": {
+    "name": "John",
+    "age": 30,
+    "city": "London",
+    "hobbies": ["reading", "traveling"]
+  },
+  "car": {
+    "brand": "Toyota",
+    "model": "Corolla"
+  },
+  "obj": {
+    "make": "Tesla",
+    "year": 2022,
+    "color": "red"
+  },
+  "users": [
+    { "name": "Alice", "age": 25 },
+    { "name": "Bob", "age": 28 },
+    { "name": "Charlie", "age": 22 }
+  ]
+}
